@@ -1,0 +1,24 @@
+{
+  "name": "thebrolodex",
+  "version": "0.0.1",
+  "description": "The dumbest idea you've ever had in your life",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "browserify": "^12.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://iamshawnrice@github.com/iamshawnrice/thebrolodex.git"
+  },
+  "author": "Shawn Rice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshawnrice/thebrolodex/issues"
+  },
+  "homepage": "https://github.com/iamshawnrice/thebrolodex#readme"
+}
