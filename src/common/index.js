@@ -1,1 +1,1 @@
-angular.module('App.common', []);
+angular.module('App.common', ['ngResource']);

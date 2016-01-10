@@ -2,6 +2,7 @@ var app = angular.module('App', [
 	'ngAnimate',
 	'ngTouch',
 	'ngSanitize',
+  'ngResource',
 
 	'App.common',
 	'App.directives',
@@ -9,7 +10,7 @@ var app = angular.module('App', [
 ]);
 
 app.config(function($locationProvider){
-	$locationProvider.html5Mode(true);	
+	$locationProvider.html5Mode(true);
 });
 
 app.run(function($rootScope){

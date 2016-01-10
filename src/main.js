@@ -1,13 +1,14 @@
 // For webpack, filter out .test files
-function requireAll(r) { 
+function requireAll(r) {
 	r.keys().forEach(function(key){
 		key.search('.test') === -1 && r(key)
 	});
-}; 
+};
 
 // dependencies
 require('angular/angular');
 require('angular-animate/angular-animate');
+require('angular-resource/angular-resource');
 require('angular-sanitize/angular-sanitize');
 require('angular-touch/angular-touch');
 
