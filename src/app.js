@@ -1,18 +1,17 @@
 var app = angular.module('App', [
-	'ngAnimate',
-	'ngTouch',
-	'ngSanitize',
+  'ngAnimate',
+  'ngTouch',
+  'ngSanitize',
   'ngResource',
 
-	'App.common',
-	'App.directives',
-	'App.components'
+  'App.common',
+  'App.directives',
+  'App.components'
 ]);
 
-app.config(function($locationProvider){
-	$locationProvider.html5Mode(true);
+app.config(function($locationProvider, $httpProvider){
+  $locationProvider.html5Mode(true);
 });
 
 app.run(function($rootScope){
-	$rootScope.hello = 'Hello World!';
 });
