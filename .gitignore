@@ -3,7 +3,6 @@ node_modules/
 .htaccess
 sitemap.xml
 sitemap.xml.gz
-/public/api/wp-config.php
 /public/api/wp-content/advanced-cache.php
 /public/api/wp-content/backup-db/
 /public/api/wp-content/backups/
