@@ -1,7 +1,10 @@
-<p>Total isms: {{ isms.length }}</p>
-
 <ul>
   <li ng-repeat="ism in isms">
-    Title: {{ ism.title }}
+    <strong>Title:</strong><br />
+    {{ ism.title }}<br />
+    <strong>Translation:</strong><br />
+    {{ ism.content }}
   </li>
 </ul>
+
+<p>Total isms: {{ isms.length }}</p>
