@@ -3,17 +3,16 @@ angular.module('App.components').component('ismForm', {
   templateUrl: '/templates/ismForm.html',
   controllerAs: 'ismForm',
   controller: function($scope, ismsFactory) {
-    $scope.Ism = {
+    $scope.ism = {
       title: '',
       content_raw: ''
     };
 
     $scope.processForm = function($event) {
-      this.newIsm = new ismsFactory();
+      var newIsm = new ismsFactory();
 
-      ismsFactory.save(this.Ism, function() {
-        debugger;
-      });
+      newIsm.data = this.ism
+      newIsm.$save();
 
       $event.preventDefault();
     }

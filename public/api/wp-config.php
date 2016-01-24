@@ -87,3 +87,7 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/* Enables JWT Authentication for WP REST API: https://github.com/Tmeister/wp-api-jwt-auth */
+define('JWT_AUTH_SECRET_KEY', 'SpDX/z-=Y!Ca]ErRP1c& 5Qg-&,cU.I1W5tt*BV||hIJ*-FnU85jGI:hgNy9oln_');
+define('JWT_AUTH_CORS_ENABLE', true);
