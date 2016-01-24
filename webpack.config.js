@@ -100,7 +100,7 @@ function WebpackConfig() {
       // PROXY SERVER https://webpack.github.io/docs/webpack-dev-server.html#proxy
       proxy: {
           '/api*': {
-            target: 'http://localhost:8888/public/'
+            target: 'http://localhost:8888/'
           },
       }
     };
