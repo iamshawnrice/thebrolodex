@@ -1,13 +1,15 @@
-angular.module('App.common').factory('ismsFactory', function($resource) {
-  var isms = $resource('./api/wp-json/wp/v2/posts', {},
-  {
+angular.module('App.common').service('api', function($resource) {
+  var api = {};
+
+  api.ism = $resource('./api/wp-json/wp/v2/posts/:id', {id: '@id'}, {
     get: {
       params: {
-        'filter[posts_per_page]': '-1'
-      },
-      isArray: true
+        'filter[posts_per_page]': '50'
+      }
     }
   });
 
-  return isms;
+  api.auth = $resource('./api/wp-json/jwt-auth/v1/token');
+
+  return api;
 });

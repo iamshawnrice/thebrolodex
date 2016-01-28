@@ -3,6 +3,7 @@ var app = angular.module('App', [
   'ngTouch',
   'ngSanitize',
   'ngResource',
+  'ngCookies',
 
   'App.common',
   'App.directives',
@@ -14,6 +15,7 @@ app.config(function($locationProvider, $httpProvider){
 
   // TODO: check for cookie set in loginForm.js and set headers accordingly
   // https://github.com/Tmeister/wp-api-jwt-auth
+  $httpProvider.interceptors.push('requestTransform');
 });
 
 app.run(function($rootScope){

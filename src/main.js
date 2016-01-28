@@ -8,6 +8,7 @@ function requireAll(r) {
 // dependencies
 require('angular/angular');
 require('angular-animate/angular-animate');
+require('angular-cookies/angular-cookies');
 require('angular-resource/angular-resource');
 require('angular-sanitize/angular-sanitize');
 require('angular-touch/angular-touch');
