@@ -1,8 +1,12 @@
-<div>
-  <strong>Title:</strong><br />
-  {{ ism.title }}<br />
-  <strong>Translation:</strong><br />
-  {{ ism.content }}
-</div>
+<section class="ism-content">
+  <div class="ism-content-body">
+    <strong>Title:</strong><br />
+    {{ ism.title.rendered }}<br />
+    <strong>Translation:</strong><br />
+    {{ ism.content.rendered }}
+  </div>
+</section>
 
-<button ng-click="broMe($event)">Thank you, Bro. May I have another?</button>
+<footer class="ism-actions">
+  <button ng-click="broMe($event)">Thank you, Bro. May I have another?</button>
+</footer>

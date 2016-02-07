@@ -1,0 +1,25 @@
+isms {
+  display: flex;
+  flex-direction: column;
+}
+
+.ism-content,
+.ism-actions {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ism-content {
+  flex: 3 1 auto;
+}
+
+.ism-content-body {
+  flex: 0 0 auto;
+}
+
+.ism-actions {
+  flex: 1 1 auto;
+}
