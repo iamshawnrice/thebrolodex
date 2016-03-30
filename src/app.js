@@ -10,7 +10,7 @@ var app = angular.module('App', [
   'App.components'
 ]);
 
-app.config(function($locationProvider, $httpProvider){
+app.config(function($locationProvider, $httpProvider, $animateProvider){
   $locationProvider.html5Mode(true);
 });
 

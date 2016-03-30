@@ -1,4 +1,5 @@
 isms {
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
@@ -13,7 +14,7 @@ isms {
 }
 
 .ism-content {
-  flex: 3 1 auto;
+  flex: 4 1 auto;
 }
 
 .ism-content-body {
@@ -22,4 +23,8 @@ isms {
 
 .ism-actions {
   flex: 1 1 auto;
+}
+
+.ism {
+  font-size: 6rem;
 }

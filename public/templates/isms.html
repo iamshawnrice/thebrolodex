@@ -1,9 +1,7 @@
 <section class="ism-content">
   <div class="ism-content-body">
-    <strong>Title:</strong><br />
-    {{ ism.title.rendered }}<br />
-    <strong>Translation:</strong><br />
-    {{ ism.content.rendered }}
+    <div class="ism animate" ng-repeat="ism in [ism]" ng-bind-html="ism.title.rendered"
+        title="{{ ism.content.rendered }}"></div>
   </div>
 </section>
 
