@@ -1,6 +1,7 @@
 <section class="ism-content">
   <div class="ism-content-body">
-    <div class="ism" ng-bind-html="ism.title.rendered"title="{{ ism.content.rendered }}"></div>
+    <div ng-repeat="ism in [ism]" class="ism is-animated" ng-bind-html="ism.title.rendered"
+      title="{{ ism.content.rendered }}"></div>
   </div>
 </section>
 

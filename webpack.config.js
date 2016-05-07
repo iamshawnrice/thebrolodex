@@ -51,9 +51,13 @@ function WebpackConfig() {
       module: {
         loaders: [
           {
-                test: /\.scss$/,
-                loaders: ['style/url','file?name=/'+ APP_NAME +'.css?[hash]', 'autoprefixer', 'sass', 'import-glob']
-            }
+            test: /\.scss$/,
+            loaders: ['style/url','file?name=/'+ APP_NAME +'.css?[hash]', 'autoprefixer', 'sass', 'import-glob']
+          },
+          {
+            test: /jquery\.js$/,
+            loader: 'expose?jQuery!expose?$'
+          }
         ]
       },
       plugins: [

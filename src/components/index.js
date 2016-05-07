@@ -1,1 +1,3 @@
-angular.module('App.components', []);
+angular.module('App.components', [
+  'animations'
+]);
