@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  background-color: $white;
+  color: $black;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -13,6 +15,13 @@ body {
 }
 
 .header {
+  @include sans;
   text-align: center;
   flex-grow: 0;
+  background-color: $black;
+  color: $white;
+
+  h1 {
+    font-size: 3em;
+  }
 }
