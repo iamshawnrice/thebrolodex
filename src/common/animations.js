@@ -10,7 +10,10 @@ animations.animation('.is-animated', function() {
       transition = keys[0];
 
   var enter = function(element, doneFn) {
+    var height = '-' + (.5 * $(element).height() + 'px');
+
     $(element)
+      .css('margin-top', height)
       .velocity(transitions[transition].in.start, 0)
       .velocity(transitions[transition].in.end, {
         duration: 250,
@@ -25,6 +28,8 @@ animations.animation('.is-animated', function() {
       complete: function() {
         // change the transition for the next animation
         transition = keys[Math.floor(Math.random() * keys.length)];
+        // remove the element from the DOM
+        $(this).remove();
         // and fire any necessary callbacks
         doneFn;
       }
