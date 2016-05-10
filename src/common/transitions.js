@@ -138,7 +138,7 @@ var transitions = {
   rotateYLeft: {
     in: {
       start: {
-        rotateY: '180',
+        rotateY: '90',
         opacity: 0
       },
       end: {
@@ -147,7 +147,7 @@ var transitions = {
       }
     },
     out: {
-      rotateY: '-180',
+      rotateY: '-90',
       opacity: 0
     }
   },
@@ -155,7 +155,7 @@ var transitions = {
   rotateYRight: {
     in: {
       start: {
-        rotateY: '-180',
+        rotateY: '-90',
         opacity: 0
       },
       end: {
@@ -164,7 +164,7 @@ var transitions = {
       }
     },
     out: {
-      rotateY: '180',
+      rotateY: '90',
       opacity: 0
     }
   }

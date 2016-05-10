@@ -2,7 +2,13 @@
 @import "~normalize.css/normalize";
 
 // utils
-@import "./sass/**/*.scss";
+@import
+  './sass/variables',
+  './sass/mixins',
+  './sass/functions',
+  './sass/helpers',
+  './sass/typography',
+  './sass/base';
 
 // component sass files
 @import "./components/**/*.scss";
