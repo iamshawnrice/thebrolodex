@@ -12,7 +12,7 @@ var app = angular.module('App', [
 
 app.config(function($locationProvider, $httpProvider, $animateProvider, $compileProvider){
   $locationProvider.html5Mode(true);
-  // disabled due to performance concerns - reenable if you need to use batarang
+  // disabled due to performance concerns - reenable if need to use batarang
   $compileProvider.debugInfoEnabled(false);
 });
 

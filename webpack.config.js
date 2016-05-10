@@ -130,7 +130,6 @@ function HelloWorldPlugin(options) {
 }
 
 HelloWorldPlugin.prototype.apply = function(compiler) {
-
   compiler.plugin('compilation', function() {
     console.log('Compiled', new Date().toLocaleTimeString());
   });
