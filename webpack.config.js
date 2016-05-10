@@ -118,7 +118,9 @@ function WebpackConfig() {
       new ngAnnotatePlugin({
               add: true
           }),
-      new webpack.optimize.UglifyJsPlugin()
+      new webpack.optimize.UglifyJsPlugin({
+        mangle: false
+      })
     ]);
   }
 
