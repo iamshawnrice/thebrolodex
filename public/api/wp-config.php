@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '<zET=@|h3;_Sa^^xe-Vn_&n#d>dm44+j4h`eKZo4+t{NUZT3!#M*SR;!s1dj,/:8');
+define('SECURE_AUTH_KEY',  '5:suth`g&R:BD<pmgGlRW;v#aC%<{1ub0DLJj7gaP|$`4#rsKga{e4|CW?Lt7Tt3');
+define('LOGGED_IN_KEY',    'DMpA(vF+.od?1cc-^JDFqu(@u{n B-@gzFa.9lh5+:>cw96hb7[!i[#Y^@F>Zu|Z');
+define('NONCE_KEY',        'L@:B}xfomV(W]4XVs#fh-wXa?Ic5Erk0pr2I_#4jaY3(|sVp+9?uy[RSva*4>@B~');
+define('AUTH_SALT',        '?k{/Hk%iRb}c2}kro`K::]oMf-PRO,9fcT1$-4#!1Q#,* P(i}C|^$a2& !SZJeq');
+define('SECURE_AUTH_SALT', 'qTyP1fiOiA}9A,6/7B3iPu+|TZ<x:11%A=eoC|/)1>H.az2Vrs?1i.JQ:R1+A.7]');
+define('LOGGED_IN_SALT',   'Tsx-P+5x3n4SdX#Cj|,C>1+`t[66o`j0e%%ytG,xDl`/h4o.A+zo-,9AXexGJ-[n');
+define('NONCE_SALT',       'd,[.Fo%V8|Y|X1B.:gJVYg)Z*L|kWNlAu{3d{L)xz|5PSJTceR<|%mYgS^- :q3b');
 
 /**#@-*/
 
@@ -77,7 +77,7 @@ $table_prefix  = 'bro1_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
