@@ -2,7 +2,8 @@ intro {
   display: block;
 
   p {
-    visibility: hidden;
+    opacity: 0;
     font-size: 3em;
+    position: relative;
   }
 }
