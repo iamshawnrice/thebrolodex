@@ -1,0 +1,591 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"horzS",
+				"horzSlideRight"
+			],
+			[
+				"$animate",
+				"$animateProvider	AngularJS"
+			],
+			[
+				"ng-bin",
+				"ng-bind-html	AngularJS"
+			],
+			[
+				"popo",
+				"popoverView"
+			],
+			[
+				"pro",
+				"prototype"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/iamshawnrice/.zshrc",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/common/animations.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/intro/_intro.scss",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/sass/_base.scss",
+		"/Users/iamshawnrice/Sites/thebrolodex.sublime-project",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/api/wp-config.php",
+		"/Users/iamshawnrice/Sites/thebrolodex/webpack.config.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/dist/app.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/index.html",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/app.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/common/transitions.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/isms/_isms.scss",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/isms/isms.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/templates/isms.html",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/main.scss",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/sass/_typography.scss",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/sass/_variables.scss",
+		"/Users/iamshawnrice/Sites/thebrolodex/node_modules/ast-types/lib/types.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/common/ismsFactory.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/submitForm/submitForm.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/templates/submitForm.html",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/sass/_helpers.scss",
+		"/Users/iamshawnrice/Sites/thebrolodex/package.json",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/vendors/velocity.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/main.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/index.js",
+		"/Users/iamshawnrice/.bash_profile",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/ism/ism.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/templates/ism.html",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/common/requestTransform.js",
+		"/Users/iamshawnrice/Sites/shawnricemakeswebsites/package.json",
+		"/Users/iamshawnrice/Sites/shawnricemakeswebsites/public/api/wp-config.php",
+		"/Users/iamshawnrice/Sites/shawnricemakeswebsites/README.md",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/loginForm/loginForm.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/.gitignore",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/api/.htaccess",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/ismsList/ismsList.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/api/wp-content/themes/thebrolodex/functions.php",
+		"/Users/iamshawnrice/Sites/thebrolodex/src/components/ismForm/ismForm.js",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/templates/loginForm.html",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/templates/ismForm.html",
+		"/Users/iamshawnrice/Sites/thebrolodex/public/templates/ismsList.html",
+		"/Users/iamshawnrice/Sites/thebrolodex/README.md",
+		"/Users/iamshawnrice/junyoed/jlor/templates/js-tpl/library/library-btn.js.html.j2",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/tpl.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/librarymenu/popover.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/advanced-search/meta/accessibility.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/librarymenu.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/i18n/gettext.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/templates.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/init.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/user-library.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/group_library.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/previewer.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/page-actions.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/library/user-library.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/previewer.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/library/templates/library.j2",
+		"/Users/iamshawnrice/junyoed/jlor/templates/groups/members.html.j2",
+		"/Users/iamshawnrice/junyoed/jlor/package.json",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/index.js",
+		"/Users/iamshawnrice/junyoed/jlor.sublime-project",
+		"/Users/iamshawnrice/junyoed/jlor/gulp/tasks/browserify/config.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/popover.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/groups.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/search.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/popover-manager.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/library/templates/resource.j2",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/templates/loading.j2",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/popover/templates/playlist-item.j2",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/popover/templates/playlist-popover.j2",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/lazy-loader.js",
+		"/Users/iamshawnrice/junyoed/jlor/javascript/jlor/templates/loading2.j2",
+		"/Users/iamshawnrice/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/iamshawnrice/junyoed/jlor/manage.py",
+		"/Users/iamshawnrice/Desktop/BASH.bash_profile",
+		"/Users/iamshawnrice/junyoed/jlor/logs/streams.log"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 79.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"uglify",
+			"buildConfig",
+			"build",
+			": ",
+			"jQuery",
+			"ismsFactory",
+			"gettext",
+			"debugger;",
+			"gettext",
+			"js-tpl/library/library-btn.js.html.j2",
+			"pageActions",
+			"require('./previewer'",
+			"JLOR.pageActions",
+			"PageActions",
+			"pageActions",
+			"var popover = new JLOR.popover()",
+			"JLOR.PageActions",
+			"js-page-action-add",
+			"resourceTypesPresent",
+			"js-page-actions",
+			"var actionsAllowed",
+			"js-tpl/library/library-btn.js.html.j2",
+			"gettext",
+			"popover",
+			"JLOR.popover",
+			"View",
+			"');\n",
+			"Shared by",
+			"View",
+			"popoverInstance",
+			"this.popoverInstance",
+			"View",
+			"onHidden",
+			"View",
+			"PlaylistPopoverView",
+			"nunjucksify",
+			"local.loadingTPL = $(local.loadingTPL.render({\n        classes: 'search-pagination hidden'\n      }));",
+			"nunjucksify",
+			"local.loadingTPL = $(local.loadingTPL.render({\n        classes: 'search-pagination hidden'\n      }));"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "thebrolodex.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"base.scss",
+				"src/sass/_base.scss"
+			],
+			[
+				"ani",
+				"src/common/animations.js"
+			],
+			[
+				"index.",
+				"public/index.html"
+			],
+			[
+				"intro.scss",
+				"src/components/intro/_intro.scss"
+			],
+			[
+				"intro.html",
+				"public/templates/intro.html"
+			],
+			[
+				"comtransi",
+				"src/common/transitions.js"
+			],
+			[
+				"intro.js",
+				"src/components/intro/intro.js"
+			],
+			[
+				"pubdisapp.js",
+				"public/dist/app.js"
+			],
+			[
+				"app.js",
+				"src/app.js"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"transi",
+				"src/common/transitions.js"
+			],
+			[
+				"isms.html",
+				"public/templates/isms.html"
+			],
+			[
+				"ismscss",
+				"src/components/isms/_isms.scss"
+			],
+			[
+				"animati",
+				"src/common/animations.js"
+			],
+			[
+				"isms.js",
+				"src/components/isms/isms.js"
+			],
+			[
+				"variab",
+				"src/sass/_variables.scss"
+			],
+			[
+				"typo",
+				"src/sass/_typography.scss"
+			],
+			[
+				"type",
+				"node_modules/ast-types/lib/types.js"
+			],
+			[
+				"temism.html",
+				"public/templates/isms.html"
+			],
+			[
+				"ism.scss",
+				"src/components/isms/_isms.scss"
+			],
+			[
+				"typogra",
+				"src/sass/_typography.scss"
+			],
+			[
+				"comism.js",
+				"src/components/isms/isms.js"
+			],
+			[
+				"webp",
+				"webpack.config.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"velo",
+				"src/vendors/velocity.js"
+			],
+			[
+				"web",
+				"webpack.config.js"
+			],
+			[
+				"webpack",
+				"webpack.config.js"
+			],
+			[
+				"ism.html",
+				"public/templates/isms.html"
+			],
+			[
+				"main.js",
+				"src/main.js"
+			],
+			[
+				"webpa",
+				"webpack.config.js"
+			],
+			[
+				"",
+				"src/components/isms/_isms.scss"
+			],
+			[
+				"request",
+				"src/common/requestTransform.js"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"wp-conf",
+				"public/api/wp-config.php"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"ism",
+				"src/common/ismsFactory.js"
+			],
+			[
+				"ismform",
+				"public/templates/ismForm.html"
+			],
+			[
+				"ismslist",
+				"src/components/ismsList/ismsList.js"
+			],
+			[
+				"ismli",
+				"public/templates/ismsList.html"
+			],
+			[
+				"ismlist",
+				"public/templates/ismsList.html"
+			],
+			[
+				"index.h",
+				"public/index.html"
+			],
+			[
+				"wp-confi",
+				"public/api/wp-config-sample.php"
+			],
+			[
+				"library",
+				"javascript/librarymenu.js"
+			],
+			[
+				"templ",
+				"javascript/jlor/templates.js"
+			],
+			[
+				"tpl",
+				"javascript/jlor/tpl.js"
+			],
+			[
+				"js-tpl/library/library-btn.js.html.j2",
+				"templates/js-tpl/library/library-btn.js.html.j2"
+			],
+			[
+				"previw",
+				"javascript/jlor/previewer.js"
+			],
+			[
+				"init.js",
+				"javascript/init.js"
+			],
+			[
+				"page-act",
+				"javascript/jlor/page-actions.js"
+			],
+			[
+				"user-lib",
+				"javascript/user-library.js"
+			],
+			[
+				"init",
+				"javascript/init.js"
+			],
+			[
+				"index.js",
+				"javascript/jlor/index.js"
+			],
+			[
+				"config.js",
+				"gulp/tasks/browserify/config.js"
+			],
+			[
+				"popover",
+				"javascript/jlor/popover.js"
+			],
+			[
+				"groups.js",
+				"javascript/groups.js"
+			],
+			[
+				"pop",
+				"javascript/jlor/popover-manager.js"
+			],
+			[
+				"loading",
+				"javascript/jlor/templates/loading.j2"
+			],
+			[
+				"templates/load",
+				"javascript/jlor/templates/loading.j2"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"m",
+				"manage.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jl",
+				"~/junyoed/jlor.sublime-project"
+			],
+			[
+				"jlor",
+				"~/junyoed/jlor.sublime-project"
+			],
+			[
+				"master",
+				"~/Sites/masterpeace/masterpeace.sublime-project"
+			],
+			[
+				"jlo",
+				"~/junyoed/jlor.sublime-project"
+			],
+			[
+				"the",
+				"~/Sites/thebrolodex.sublime-project"
+			],
+			[
+				"",
+				"~/junyoed/jlor.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

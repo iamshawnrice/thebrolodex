@@ -9,17 +9,34 @@ angular.module('App.components').component('intro', {
   templateUrl: '/templates/intro.html',
   controllerAs: 'intro',
   controller: function($scope) {
-    $('[class^=intro]').velocity({translateY: '-20px'}, 0);
+    var $introP = $('.intro-p'),
+        introSequence = [],
+        introTiming = 200;
 
-    var revealSequence = [
-      {e: $('.intro-1'), p: {translateY: 0, opacity: 1}, o: {duration: 400}},
-      {e: $('.intro-2'), p: {translateY: 0, opacity: 1}, o: {duration: 400, delay: 800}},
-      {e: $('.intro-3'), p: {translateY: 0, opacity: 1}, o: {duration: 400, delay: 1200}},
-      {e: $('.intro-4'), p: {translateY: 0, opacity: 1}, o: {duration: 400, delay: 800}},
-      {e: $('.intro-5'), p: {translateY: 0, opacity: 1}, o: {duration: 400, delay: 1600}},
-      {e: $('.intro-6'), p: {translateY: 0, opacity: 1}, o: {duration: 800}}
-    ];
+    $introP.velocity({translateY: '-20px'}, 0);
 
-    $.Velocity.RunSequence(revealSequence);
+    $introP.each(function(i, el) {
+      introSequence[i] = {
+        e: el,
+        p: {
+          translateY: 0,
+          opacity: 1
+        },
+        o: {
+          duration: introTiming,
+          sequenceQueue: false,
+          delay: i * 50
+        }
+      }
+    });
+
+    $.Velocity.RunSequence(introSequence);
+
+    $scope.$on('intro.hide', function() {
+      // TODO:
+      // hide the intro text
+      // and animate the header to the proper size
+      $('')
+    });
   }
 });

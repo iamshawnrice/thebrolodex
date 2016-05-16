@@ -5,7 +5,8 @@ angular.module('App.components').component('isms', {
   templateUrl: '/templates/isms.html',
   controller: function($scope, api) {
     var isms = [],
-        page = 1;
+        page = 1,
+        introShown = true;
 
     function init() {
       getIsms();
@@ -23,6 +24,10 @@ angular.module('App.components').component('isms', {
     }
 
     $scope.broMe = function($event) {
+      if (introShown) {
+        $scope.$emit('intro.read');
+      }
+
       if (!isms.length) {
         getIsms();
       } else {
