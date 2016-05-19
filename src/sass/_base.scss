@@ -20,8 +20,13 @@ body {
   text-align: center;
   top: 0;
   z-index: 2;
+  padding: 1em;
 
-  h1 {
+  .header-title {
     font-size: 3em;
+  }
+
+  &.intro-in {
+    height: 100%;
   }
 }
