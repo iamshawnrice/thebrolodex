@@ -15,12 +15,12 @@ body {
   background-color: $black;
   color: $white;
   left: 0;
+  padding: 1em;
   position: fixed;
   right: 0;
   text-align: center;
   top: 0;
   z-index: 2;
-  padding: 1em;
 
   .header-title {
     font-size: 3em;
